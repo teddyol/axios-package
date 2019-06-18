@@ -7,9 +7,9 @@ import { get, post } from './http'
 /*
  * 接口注释
  */
-export const news = p => post('/index', p);
+export const news = p => post('/toutiao/index', p);
 
 /*
  * 接口注释
  */
-export const mobile = p => get('/index', p);
+export const mobile = p => get('/toutiao/index', p);
